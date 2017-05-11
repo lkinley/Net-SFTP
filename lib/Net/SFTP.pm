@@ -8,14 +8,14 @@ use Net::SFTP::Util qw( fx2txt );
 use Net::SFTP::Attributes;
 use Net::SFTP::Buffer;
 use Net::SSH::Perl::Constants qw( :msg2 );
-use Net::SSH::Perl 1.24;
+use Net::SSH::Perl 2.12;
 
 use Carp qw( carp croak );
 
 use vars qw( $VERSION );
-$VERSION = '0.10';
+$VERSION = '0.11';
 
-use constant COPY_SIZE => 8192;
+use constant COPY_SIZE => 65536;
 
 sub new {
     my $class = shift;
@@ -668,7 +668,8 @@ underlying the I<Net::SFTP> connection.
 
 For example, you could use this to set up your authentication
 identity files, to set a specific cipher for encryption, etc.,
-e.g. C<ssh_args =E<gt> [ cipher =E<gt> 'arcfour' ]>.
+e.g. C<ssh_args =E<gt> [ cipher =E<gt> 'aes256-cbc', options =<gt> 
+[ "MACs +hmac-sha1", "HashKnownHosts yes" ] ]>.
 
 See the I<new> method in I<Net::SSH::Perl> for more details.
 

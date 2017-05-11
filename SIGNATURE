@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.81.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+SHA1 d695dc653e7ad8eed11fc0e363f8b52e429edcd8 Changes
+SHA1 c17b0fc58538e16a1475999e09e9edbf5384542b LICENSE
+SHA1 5ff1c19b2944ef78cde85dddb527566e1cc92b72 MANIFEST
+SHA1 1483cf0e23d0bfa9a20502bd1f1dd13cec226f08 MANIFEST.SKIP
+SHA1 9de0e3be5a22624d772a78473b584ca1c6bbec9c META.yml
+SHA1 3ef4d2cc698e2f7be236763f07258ef0adebef3d Makefile.PL
+SHA1 ad4c087c85a5cf3ebd0c90c4cdc1dc18979b5a88 README
+SHA1 3b5bba6eccb5069c52db7d24418a05ad3c7bb004 ToDo
+SHA1 aa4cbef8c5ece2b87a323735512d5ee74f526bdd eg/psftp
+SHA1 2f9134e9a78248555ae9706962660ab8db0228fa lib/Net/SFTP.pm
+SHA1 45e4a308da3cb18270a5bafb43d558cefc47af1e lib/Net/SFTP/Attributes.pm
+SHA1 45a7b2d8eb1258378d59b6844418e1341a9c002b lib/Net/SFTP/Buffer.pm
+SHA1 f8022c20ba6a94c9c24b4576c76527bf16a9f94a lib/Net/SFTP/Constants.pm
+SHA1 0c32c77688f35877944eb886a1005edf1e425116 lib/Net/SFTP/Util.pm
+SHA1 f16f22aefa48564da5c7d5186a35ce7900933f07 t/01-load.t
+SHA1 9f73570113ff6c5110b5ac5a63ce73236f420fa4 t/06-circular.t
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - http://gpgtools.org
+
+iQEcBAEBCAAGBQJZFKI/AAoJEC3vSbXAsR2+psIIAIlDqwEjRkBVQ4nF0fj3vWOc
+YWf9NvI8m9rzKnAsD52acl0dK6Pf4HUbn1INlNnHeSWISO6UQjg85tTEngNMPIyk
+6bZnX5o9scCyNxi7nq7FgKG9uf4ABiRlbFqxDtc+XGh5DuF59rSrPVu1Eu/3x28u
++rxwnf473YwjLr2Sb9EsiA0jimPPe3xt6F9FdYL93PBBuVKrubSeN2YNxKgA9MNm
+kAm2YuZ8qtS97WEzyIyg3tdGHV3t63QT8vmfPjF2O23kmN/H68MGkVTcR+wITExJ
+6gJ6QVK49F7UNkWhi4mcCdOrqQPkGqAt2rmVM/KPVnpka1T06E6kRYxb9gdAhh0=
+=of0d
+-----END PGP SIGNATURE-----
