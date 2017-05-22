@@ -8,10 +8,11 @@ lib/Net/SFTP/Util.pm
 LICENSE
 Makefile.PL
 MANIFEST
-SIGNATURE
 MANIFEST.SKIP
 META.yml			Module meta-data (added by MakeMaker)
 README
+SIGNATURE
 t/01-load.t
 t/06-circular.t
 ToDo
+META.json                                Module JSON meta-data (added by MakeMaker)

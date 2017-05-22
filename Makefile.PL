@@ -12,4 +12,6 @@ WriteMakefile(
         'Net::SSH::Perl' => '2.12',
         'Math::Int64' => '0.54'
     },
+    SIGN => 1,
+    LICENSE => 'gpl_2',
 );
