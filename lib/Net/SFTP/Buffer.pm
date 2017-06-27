@@ -6,7 +6,7 @@ use strict;
 use Net::SSH::Perl::Buffer;
 use base qw( Net::SSH::Perl::Buffer );
 
-use Math::Int64 qw( net_to_int64 int64_to_net );
+use Math::Int64 qw( :native_if_available net_to_int64 int64_to_net );
 
 sub new {
     return shift->SUPER::new(@_);

@@ -1,5 +1,10 @@
 Revision history for Net::SFTP
 
+0.12  2017.06.27
+    - put function was broken when trying to send 64 Kbyte chunks
+      send only 8 Kbytes at a time
+    - offset variable should be 64 bit
+
 0.11  2017.05.22
     - Increase COPY_SIZE to improve performance
     - Add SSH2_FILEXFER_ATTR_EXTENDED support from Rob Coward
